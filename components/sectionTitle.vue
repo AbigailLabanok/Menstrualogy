@@ -5,11 +5,6 @@
 </template>
 
 <script>
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger)
-
 export default{
     props:{
         text: {
@@ -18,11 +13,11 @@ export default{
         }
     },
     mounted(){
-        gsap.set(this.$refs['text'], {
+        this.$gsap.set(this.$refs['text'], {
             y: this.$refs['text'].offsetHeight
         })
 
-        gsap.to(this.$refs['text'], {
+        this.$gsap.to(this.$refs['text'], {
             y:0,
             duration: 0.5,
             scrollTrigger: {

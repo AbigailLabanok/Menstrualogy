@@ -24,9 +24,6 @@
 </template>
 
 <script>
-
-import { gsap } from "gsap";
-
 export default {
     name: "navbar",
     data(){
@@ -35,26 +32,26 @@ export default {
         }
     },
     mounted(){
-        gsap.set(this.$refs['menu'],{
+        this.$gsap.set(this.$refs['menu'],{
             x: this.$refs['menu'].offsetWidth
         })
     },
     methods:{
         menu(){
-            gsap.to(this.$refs['bottom'],{
+            this.$gsap.to(this.$refs['bottom'],{
                 rotate: 45 * !this.open,
                 y: -17.5 * !this.open,
                 duration: 0.25
             })
-            gsap.to(this.$refs['middle'],{
+            this.$gsap.to(this.$refs['middle'],{
                 width: `${100 * this.open}%`
             })
-            gsap.to(this.$refs['top'],{
+            this.$gsap.to(this.$refs['top'],{
                 rotate: -45 * !this.open,
                 y: 17.5 * !this.open,
                 duration: 0.25
             })
-            gsap.to(this.$refs['menu'],{
+            this.$gsap.to(this.$refs['menu'],{
                 x: this.$refs['menu'].offsetWidth * this.open
             })
             this.open = !this.open

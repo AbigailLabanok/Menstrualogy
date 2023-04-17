@@ -17,10 +17,6 @@
 </template>
 
 <script>
-import gsap from "gsap";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-gsap.registerPlugin(MotionPathPlugin)
-
 export default{
     mounted(){
         
@@ -28,7 +24,7 @@ export default{
     methods:{
         addpath(reference){
             const r = 100;
-            gsap.to(reference, {
+            this.$gsap.to(reference, {
             motionPath: {
                 path: `M ${-r}, 0
                     a ${r},${r} 0 1,0 ${r * 2},0
