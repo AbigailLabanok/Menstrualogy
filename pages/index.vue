@@ -1,5 +1,6 @@
 <template>
     <div>
-        Hello welcome to home page!
+        <landing/>
+        <about/>
     </div>
 </template>

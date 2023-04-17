@@ -13,8 +13,11 @@
                 <div ref="middle" class="h-1.5 w-16 bg-accent-2 rounded-lg"></div>
                 <div ref="bottom" class="h-1.5 w-16 bg-accent-2 rounded-lg"></div>
             </div>
-            <div class="h-screen w-1/6 bg-accent-3 absolute right-0">
-    
+            <div class="h-screen w-[25rem] bg-accent-1 absolute right-0 flex justify-center items-center flex-col gap-10" ref="menu">
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Home</a>
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">About MHM</a>
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Map</a>
+                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Blog</a>
             </div>
         </div>
     </div>
@@ -31,6 +34,11 @@ export default {
             open: false
         }
     },
+    mounted(){
+        gsap.set(this.$refs['menu'],{
+            x: this.$refs['menu'].offsetWidth
+        })
+    },
     methods:{
         menu(){
             gsap.to(this.$refs['bottom'],{
@@ -45,6 +53,9 @@ export default {
                 rotate: -45 * !this.open,
                 y: 17.5 * !this.open,
                 duration: 0.25
+            })
+            gsap.to(this.$refs['menu'],{
+                x: this.$refs['menu'].offsetWidth * this.open
             })
             this.open = !this.open
         }

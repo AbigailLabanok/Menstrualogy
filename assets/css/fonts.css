@@ -6,3 +6,7 @@
     font-family: "lemon-bold";
     src: url("../fonts/LemonMilkBold-gx2B3.otf")
 }
+@font-face {
+    font-family: "montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf")
+}
