@@ -21,7 +21,7 @@
                 </div>
             </div>
             <h2 class="font-[lemon-bold] text-sm text-white mt-10">
-                ALL RIGHTS RESERVED © MENSTRUAL HYGIENE MANAGEMENT 2023
+                ALL RIGHTS RESERVED © MENSTRUALOGY
             </h2>
         </div>
         <div class="w-full bg-secondary h-[20%] flex justify-evenly items-center">

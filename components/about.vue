@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-full flex justify-center items-center flex-row">
+    <div class="w-screen h-full mobile" id="about">
         <div class="h-[50rem] w-1/2 flex justify-center items-center">
             <img class="w-[20rem] animate-bounce" src="~/assets/images/siths.png"/>
         </div>
@@ -14,3 +14,20 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+
+.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 1100px) {
+    .mobile{
+        flex-direction: column;
+    }   
+}
+
+</style>

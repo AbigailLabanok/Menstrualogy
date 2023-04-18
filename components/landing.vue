@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-full bg-accent-3 flex justify-center items-center flex-row">
+    <div class="w-screen h-full bg-accent-3 mobile">
         <div class="h-[50rem] w-1/2 flex justify-center items-center">
             <p class="font-[montserrat] text-accent-1 text-3xl pl-24">
                 Menstrual Hygiene Management (MHM) includes access to period products such as pads and tampons, water, soap, space, and privacy.
@@ -39,3 +39,19 @@ export default{
 }
 
 </script>
+
+<style scoped>
+
+    .mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 1550px) {
+        .mobile{
+            flex-direction: column;
+        }
+    }
+</style>

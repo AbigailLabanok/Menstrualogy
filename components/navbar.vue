@@ -4,8 +4,7 @@
             <div class="h-full flex items-center">
                 <img alt="Logo image" src="~/assets/images/logo.png" class="h-40 p-0 m-0"/>
                 <div>
-                    <h2 class="text-accent-3 font-[lemon-bold] text-5xl">MENSTRUAL</h2>
-                    <h2 class="text-accent-3 font-[lemon-bold] text-2xl">Hygiene Management</h2>
+                    <h2 class="text-accent-3 font-[lemon-bold] text-5xl">MENSTRUALOGY</h2>
                 </div>
             </div>
             <div class="flex justify-center flex-col gap-3 cursor-pointer z-20" @click="menu">
@@ -14,9 +13,9 @@
                 <div ref="bottom" class="h-1.5 w-16 bg-accent-2 rounded-lg"></div>
             </div>
             <div class="h-screen w-[25rem] bg-accent-1 absolute right-0 flex justify-center items-center flex-col gap-10" ref="menu">
-                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Home</a>
-                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">About MHM</a>
-                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Map</a>
+                <a href="." class="text-white font-[lemond-bold]">Home</a>
+                <a href="#about" class="text-white font-[lemond-bold]">About MHM</a>
+                <a href="/map?floor=0" class="text-white font-[lemond-bold]">Map</a>
                 <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Blog</a>
             </div>
         </div>
