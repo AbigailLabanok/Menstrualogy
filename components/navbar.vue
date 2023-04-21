@@ -15,6 +15,7 @@
             <div class="h-screen w-[25rem] bg-accent-1 absolute right-0 flex justify-center items-center flex-col gap-10 z-20" :style="{transform: 'translateX(100%)'}" ref="menu">
                 <a href="." class="text-white font-[lemond-bold]">Home</a>
                 <a href="/map?floor=0" class="text-white font-[lemond-bold]">Map</a>
+                <a href="/info" class="text-white font-[lemond-bold]">Info</a>
                 <a href="/#about" class="text-white font-[lemond-bold]">About MHM</a>
                 <a href="/resources" class="text-white font-[lemond-bold]">Resources</a>
                 <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Blog</a>
