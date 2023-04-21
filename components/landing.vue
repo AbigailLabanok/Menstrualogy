@@ -1,13 +1,13 @@
 <template>
     <div class="w-screen h-full bg-accent-3 mobile">
-        <div class="h-[50rem] w-1/2 flex justify-center items-center">
-            <p class="font-[montserrat] text-accent-1 text-3xl pl-24">
+        <div class="h-[50rem] width flex justify-center items-center fs">
+            <p class="font-[montserrat] text-accent-1 text-3xl">
                 Menstrual Hygiene Management (MHM) includes access to period products such as pads and tampons, water, soap, space, and privacy.
                 Inadequate MHM can cause physical, emotional, and social dysfunction, resulting in a decline in school attendance and performance
                 (Sebert Kuhlman et al., 2020).
             </p>
         </div>
-        <div class="h-[50rem] w-1/2 flex justify-center items-center" ref="spin">
+        <div class="h-[50rem] width flex justify-center items-center flex-wrap" ref="spin">
             <img ref="1" class="w-[15rem]" src="~/assets/images/pad.png"/>
             <img ref="2" class="w-[15rem]" src="~/assets/images/tampon.png"/>
             <img ref="3" class="w-[15rem]" src="~/assets/images/underwear.png"/>
@@ -49,9 +49,27 @@ export default{
         align-items: center;
     }
 
+    .width{
+        width: 50%;
+    }
+
+    .fs{
+    font-size: 2rem;
+    padding: 6rem;
+}
+
+
     @media (max-width: 1550px) {
         .mobile{
             flex-direction: column;
         }
+
+        .width{
+            width: 100%;
+        }
+
+        .fs{
+        font-size: 3vmin;
+    }
     }
 </style>
