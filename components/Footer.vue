@@ -25,7 +25,7 @@
             </h2>
         </div>
         <div class="w-full bg-secondary h-[3rem] flex justify-evenly items-center">
-            <a class="font-[lemon-light] text-accent-3" href=".">Resources</a>
+            <a class="font-[lemon-light] text-accent-3" href="/resources">Resources</a>
             <a class="font-[lemon-light] text-accent-3" href="/map?floor=0">Map</a>
             <a class="font-[lemon-light] text-accent-3" href=".">Blog</a>
         </div>

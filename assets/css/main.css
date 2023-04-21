@@ -5,3 +5,10 @@
 *{
     scroll-behavior: smooth;
 }
+
+::selection {
+    background: #fdb8e6; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #fdb8e6; /* Gecko Browsers */
+}
