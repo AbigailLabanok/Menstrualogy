@@ -5,7 +5,7 @@
         </div>
         <div class="h-[50rem] width flex justify-center items-center flex-col fs">
             <sectionTitle text="About Us"/>
-            <p class="font-[montserrat]">
+            <p class="font-[scholar]">
                 Welcome to our website! Run by students at Staten Island Technical High School, here you will find information on MHM,
                 the menstrual cycle, and social stigma as well as further online resources. To assist our menstruating students, we
                 have altered floor plans of the school to create maps showing where menstrual products are available. There is also a 

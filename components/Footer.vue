@@ -17,7 +17,8 @@
                 </div>
                 <div class="font-[montserrat] text-white">
                     <h3 class="text-[3vmin]">Youwei Zhen</h3>
-                    <p class="text-[2vmin]">Placeholder for description</p>
+                    <p class="text-[2vmin]">I code:</p>
+                    <a href="https://youweizhen.com/" class="underline">https://youweizhen.com/</a>
                 </div>
             </div>
             <h2 class="font-[lemon-bold] text-sm text-white p-10">

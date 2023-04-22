@@ -5,7 +5,7 @@
             <button class="p-5 border-[#e8b6c3] border-2" ref="1" @click="nextPage('1')">First Floor</button>
         </div>
         <div class="w-[75%] h-auto aspect-[6/5] bg-no-repeat bg-center bg-contain" alt="Loading" :style="{ 'background-image': 'url(' + getPath() + ')',  }">
-            <img v-for="coord in currentFloor.positions" src="~/assets/images/mark.png" class="w-[15%] absolute cursor-pointer" :style="{transform: `translate(${coord.left}%, ${coord.top}%)`}" onclick="alert('Meow')">
+            <img v-for="coord in currentFloor.positions" src="~/assets/images/mark.png" class="w-[15%] absolute cursor-pointer" :style="{transform: `translate(${coord.left}%, ${coord.top}%)`}" onclick="alert('Pads and tampons available at this location!')">
         </div>
     </div>
 </template>

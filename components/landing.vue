@@ -1,7 +1,7 @@
 <template>
     <div class="w-screen h-full bg-accent-3 mobile">
         <div class="h-[50rem] width flex justify-center items-center fs">
-            <p class="font-[montserrat] text-accent-1">
+            <p class="font-[scholar] text-accent-1">
                 Menstrual Hygiene Management (MHM) includes access to period products such as pads and tampons, water, soap, space, and privacy.
                 Inadequate MHM can cause physical, emotional, and social dysfunction, resulting in a decline in school attendance and performance
                 (Sebert Kuhlman et al., 2020).

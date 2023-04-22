@@ -12,3 +12,14 @@
 ::-moz-selection {
   background: #fdb8e6; /* Gecko Browsers */
 }
+
+::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff71d0;    /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+}
