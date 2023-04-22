@@ -18,7 +18,7 @@
                 <a href="/info" class="text-white font-[lemond-bold]">Info</a>
                 <a href="/#about" class="text-white font-[lemond-bold]">About</a>
                 <a href="/resources" class="text-white font-[lemond-bold]">Resources</a>
-                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-white font-[lemond-bold]">Blog</a>
+                <a href="/unavailable" class="text-white font-[lemond-bold]">Blog</a>
             </div>
         </div>
     </div>

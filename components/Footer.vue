@@ -13,7 +13,7 @@
                 </div>
                 <div class="font-[montserrat] text-white">
                     <h3 class="text-[3vmin]">Tasnim Ghoniem</h3>
-                    <p class="text-[2vmin]">Hello! I am Tasnim, a student at Staten Island Technical High School. I first became interested in science when I was in middle school, and this passion carried over into my highschool career. Now, I am a research student part of SERP, where my passions have been able to blossom from biology, to physics, to engineering, and many other STEM fields. When I am not researching away, I enjoy running, dancing, and writing calligraphy. I also dance for the NBA team in my hometown, Brooklyn (Brooklyn Nets) and look forward to hopefully expanding this research project beyond Staten Island!</p>
+                    <p class="text-[2vmin]">Hello! I am Tasnim, a student at Staten Island Technical High School. I first became interested in science when I was in middle school, and this passion carried over into my highschool career. Now, I am a research student part of SERP, where my passions have been able to blossom into many other STEM fields. When I am not researching away, I enjoy running, dancing, and writing calligraphy.</p>
                 </div>
                 <div class="font-[montserrat] text-white">
                     <h3 class="text-[3vmin]">Youwei Zhen</h3>
