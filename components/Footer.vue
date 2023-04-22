@@ -28,7 +28,7 @@
         <div class="w-full bg-secondary h-[3rem] flex justify-evenly items-center">
             <a class="font-[lemon-light] text-accent-3" href="/resources">Resources</a>
             <a class="font-[lemon-light] text-accent-3" href="/map?floor=0">Map</a>
-            <a class="font-[lemon-light] text-accent-3" href=".">Blog</a>
+            <a class="font-[lemon-light] text-accent-3" href="/unavailable">Blog</a>
         </div>
     </div>
 </template>
