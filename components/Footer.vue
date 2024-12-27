@@ -16,7 +16,7 @@
                     <p class="text-[2vmin]">Hello! I am Tasnim, a student at Staten Island Technical High School. I first became interested in science when I was in middle school, and this passion carried over into my highschool career. Now, I am a research student part of SERP, where my passions have been able to blossom into many other STEM fields. When I am not researching away, I enjoy running, dancing, and writing calligraphy.</p>
                 </div>
                 <div class="font-[montserrat] text-white">
-                    <h3 class="text-[3vmin]">Youwei Zhen</h3>
+                    <h3 class="text-[3vmin]">Developers: Abigail Labanok & Youwei Zhen</h3>
                     <p class="text-[2vmin]">I code:</p>
                     <a href="https://youweizhen.com/" class="underline">https://youweizhen.com/</a>
                 </div>
